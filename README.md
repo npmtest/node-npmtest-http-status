@@ -1,4 +1,7 @@
-# test coverage for  [http-status (v1.0.1)](http://www.adaltas.com/projects/node-http-status)  [![npm package](https://img.shields.io/npm/v/npmtest-http-status.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-http-status) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-http-status.svg)](https://travis-ci.org/npmtest/node-npmtest-http-status)
+# npmtest-http-status
+
+#### basic test coverage for  [http-status (v1.0.1)](http://www.adaltas.com/projects/node-http-status)  [![npm package](https://img.shields.io/npm/v/npmtest-http-status.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-http-status) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-http-status.svg)](https://travis-ci.org/npmtest/node-npmtest-http-status)
+
 #### Interact with HTTP status code
 
 [![NPM](https://nodei.co/npm/http-status.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/http-status)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-http-status/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-http-status/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-http-status/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-http-status/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-http-status/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-http-status/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-http-status/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-http-status/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-http-status/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-http-status/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-http-status/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-http-status/build/coverage.html/index.html)
 
@@ -85,7 +88,8 @@
         "coffee": "coffee -b -o lib src",
         "test": "NODE_ENV=test node_modules/.bin/mocha --compilers coffee:coffee-script/register --reporter dot"
     },
-    "version": "1.0.1"
+    "version": "1.0.1",
+    "bin": {}
 }
 ```
 
